@@ -1,0 +1,1893 @@
+<html> 		   	  	  				  
+<head> 		   	  	  				  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 		   	  	  				  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 		   	  	  				  
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/> 		   	  	  				  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 		   	  	  				  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> 		   	  	  				  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 		   	  	  				  
+<style> 		   	  	  				  
+ 		*{ 		   	  	  				  
+ 			margin: 0; 		   	  	  				  
+ 			padding: 0; 		   	  	  				  
+ 		} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	   body{ 		   	  	  				  
+	   	background-color: black; 		   	  	  				  
+	   	max-width: 253%; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	   } 		   	  	  				  
+ 		   	  	  				  
+	   #title{ 		   	  	  				  
+	   	color:white; 		   	  	  				  
+	   	font-family: Impact, fantasy; 		   	  	  				  
+	   } 		   	  	  				  
+ 		   	  	  				  
+	   #head{ 		   	  	  				  
+	  	background-color:red; 		   	  	  				  
+ 		   	  	  				  
+	   } 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+    .card{ 		   	  	  				  
+         display: inline-block; 		   	  	  				  
+         width: 25rem; 		   	  	  				  
+    	 height: 700px; 		   	  	  				  
+         overflow: hidden; 		   	  	  				  
+         margin-right:5px; 		   	  	  				  
+         margin-bottom: 5px; 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    .cardYoutube{ 		   	  	  				  
+    	width:35rem; 		   	  	  				  
+    	height: 700px; 		   	  	  				  
+    } 		   	  	  				  
+    .cardYoutube #descYoutube{ 		   	  	  				  
+    	    height: 29%; 		   	  	  				  
+    margin: 1%; 		   	  	  				  
+    overflow: hidden; 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+    .card-img-top{ 		   	  	  				  
+        height:30%; 		   	  	  				  
+        height:250px; 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+    #MoreInfos{ 		   	  	  				  
+    	color:orange; 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    .tab-content{ 		   	  	  				  
+    	background-color: white; 		   	  	  				  
+    	color:black; 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    #myCanvasAnime2{ 		   	  	  				  
+    	width: 100%; 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    #myCanvasYoutube2{ 		   	  	  				  
+    	width: 100%; 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen and (max-device-width:1024px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 253%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+    @media screen and (max-device-width:567px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 232%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen and (max-device-width: 509px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 208%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+    @media screen and (max-device-width:454px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 185%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen and (max-device-width: 444px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 182%; 		   	  	  				  
+    	} 		   	  	  				  
+ 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen and (max-device-width: 380px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 156%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen and (max-device-width: 340px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 139%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen  and  (max-device-width: 315px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 130%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen and (max-device-width: 251px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 104%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen and (max-device-width: 225px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 92%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen and (max-device-width: 190px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 78%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen and  (max-device-width: 142px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 58%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+    @media screen and (max-device-width: 128px){ 		   	  	  				  
+    	body{ 		   	  	  				  
+    		width: 52%; 		   	  	  				  
+    	} 		   	  	  				  
+    } 		   	  	  				  
+ 		   	  	  				  
+</style> 		   	  	  				  
+<title>Media Wallet</title> 		   	  	  				  
+</head> 		   	  	  				  
+ 		   	  	  				  
+<body> 		   	  	  				  
+<div id="head"> 		   	  	  				  
+ 		   	  	  				  
+<h1 id="title" onclick="window.location.reload();">MEDIA WALLET</h1> 		   	  	  				  
+<div class="search"> 		   	  	  				  
+<label>Type de contenu recherché</label> 		   	  	  				  
+	<select id="typeSearch"> 		   	  	  				  
+		<option>youtube</option> 		   	  	  				  
+		<option>japanimation</option> 		   	  	  				  
+		<option>tous les types</option> 		   	  	  				  
+	</select> 		   	  	  				  
+	<label> Rechercher un contenu </label> 		   	  	  				  
+	<input id="contenu" type="text" name="contenu"> 		   	  	  				  
+	<button id="btnSearch" onclick="clickSearch()">Search</button> 		   	  	  				  
+</div> 		   	  	  				  
+</div> 		   	  	  				  
+<ul class="nav nav-tabs"> 		   	  	  				  
+  <li class="active"><a class="scroll" href="#suggestion">Suggestions</a></li> 		   	  	  				  
+  <li class="active"><a class="scroll" href="#incontournables">Populaires</a></li> 		   	  	  				  
+  <li class="active"><a class="scroll" href="#favoris">Favoris</a></li> 		   	  	  				  
+  <li class="active"><a class="scroll" href="#otherPlaylist">Playlists</a></li> 		   	  	  				  
+  <li class="active"><a class="scroll" href="#statsAnime">Statistiques</a></li> 	   	 	  </ul> 		   	  	  				  
+<div class="tab-content"> 		   	  	  				  
+<div id="home"> 		   	  	  				  
+ 		   	  	  				  
+	<div id="result"> 		   	  	  				  
+ 		   <div id="youtube"></div> 		   	  	  				  
+ 		   <div id="anime"></div> 		   	  	  				  
+	</div> 		   	  	  				  
+ 		   	  	  				  
+	<div id="suggestion"> 		   	  	  				  
+		<h3> Nos Suggestions de contenus</h3> 		   	  	  				  
+		<div class="YouTube"> 		   	  	  				  
+			<h4>Suggestions de Youtube</h4> 		   	  	  				  
+			<div class="contenu"> 		   	  	  				  
+ 		   	  	  				  
+			</div> 		   	  	  				  
+ 		   	  	  				  
+		</div> 		   	  	  				  
+ 		   	  	  				  
+		<div class="anime"> 		   	  	  				  
+			<h4>Suggestions d'animé</h4> 		   	  	  				  
+			<div class="contenu"> 		   	  	  				  
+ 		   	  	  				  
+			</div> 		   	  	  				  
+ 		   	  	  				  
+		</div> 		   	  	  				  
+	</div> 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	<div id="incontournables"> 		   	  	  				  
+ 		   	  	  				  
+		<h3> Contenus populaires du moments </h3> 		   	  	  				  
+		<div class="YouTube"> 		   	  	  				  
+			<h4>YouTube</h4> 		   	  	  				  
+			<div id="contenu"> 		   	  	  				  
+ 		   	  	  				  
+			</div> 		   	  	  				  
+ 		   	  	  				  
+		</div> 		   	  	  				  
+		<div class="anime"> 		   	  	  				  
+			<h4>Anime</h4> 		   	  	  				  
+			<div id="contenu"> 		   	  	  				  
+ 		   	  	  				  
+			</div> 		   	  	  				  
+ 		   	  	  				  
+		</div> 		   	  	  				  
+	</div> 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	<div id="favoris"> 		   	  	  				  
+		<h3> Vos contenus favoris</h3> 		   	  	  				  
+		<p> Voici votre liste de contenus favoris. Pour ajouter un nouveau contenu, vous devez liker un contenu parmis ceux recherché.</p> 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+		<div class="YouTube"> 		   	  	  				  
+			<h4>Vidéo youtube favoris</h4> 		   	  	  				  
+			<div class="contenu"></div> 		   	  	  				  
+		</div> 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		<div class="anime"> 		   	  	  				  
+ 		   	  	 <h4>Animé favoris</h4> 		   	  	  				  
+ 		   	  	 <div class="contenu"></div> 		   	  	  				  
+ 		</div> 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	</div> 		   	  	  				  
+ 		   	  	  				  
+	<div id="otherPlaylist"> 		   	  	  				  
+			<h3> Vos Playlists de contenu</h3> 		   	  	  				  
+ 		   	  	  				  
+			<div class="Youtube"> 		   	  	  				  
+					<h4>Playlist de Youtube </h4> 		   	  	  				  
+					<div class="contenu"></div> 		   	  	  				  
+			</div> 		   	  	  				  
+ 		   	  	  				  
+			<div class="anime"> 		   	  	  				  
+					<h4>Playlist d'animé</h4> 		   	  	  				  
+					<div class="contenu"></div> 		   	  	  				  
+			</div> 		   	  	  				  
+	</div> 		   	  	  				  
+ 		   	  	  				  
+	<div id="stats"> 		   	  	  				  
+		<h3>Statistiques des contenus</h3> 		   	  	  				  
+ 		   	  	  				  
+		<div id="statsYoutube"> 		   	  	  				  
+			<div class="statsPop"> 		   	  	  				  
+				<h4> Statistiques des 5 vidéos Youtube les plus recentes et populaire en France</h4> 		   	  	  				  
+				<canvas id="myCanvasYoutube2"></canvas> 		   	  	  				  
+			</div> 		   	  	  				  
+ 		   	  	  				  
+			<div class="statsFav"> 		   	  	  				  
+				<h4> Statistiques du top 5 de vos vidéos youtube les plus vues favoris par nombre de like</h4> 		   	  	  				  
+				<canvas id="myCanvasYouTube" height="300" width="300"> </canvas> 		   	  	  				  
+ 		   	  	  				  
+				<h4> Statistiques du top 5 de vos vidéos youtube favoris par nombre de vue</h4> 		   	  	  				  
+				<canvas id="myCanvasYouTubef2" height="300" width="300"> </canvas> 		   	  	  				  
+ 		   	  	  				  
+				<h4> Statistiques du top 5 vos chaines youtube favoris les plus consulter par nombre d'abonnés </h4> 		   	  	  				  
+				<canvas id="myCanvasYouTubef3" height="300" width="300"> </canvas> 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+			</div> 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+		</div> 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+		<div id="statsAnime"> 		   	  	  				  
+			<div class="statsPop"> 		   	  	  				  
+				<h4> Statistiques des 10 animés les populaires</h4> 		   	  	  				  
+				<canvas id="myCanvasAnime2" height="300" width="300"> </canvas> 		   	  	  				  
+			</div> 		   	  	  				  
+ 		   	  	  				  
+			<div class="statsFav"> 		   	  	  				  
+				<h4> Statistiques du top 10 de vos animés favoris</h4> 		   	  	  				  
+				<canvas  id="myCanvasAnime" height="300" width="300"></canvas> 		   	  	  				  
+			</div> 		   	  	  				  
+		</div> 		   	  	  				  
+ 		   	  	  				  
+		<div id="myModal" class="modal" role="dialog"> 		   	  	  				  
+  <div class="modal-dialog"> 		   	  	  				  
+ 		   	  	  				  
+    <!-- Modal content--> 		   	  	  				  
+    <div class="modal-content"> 		   	  	  				  
+      <div class="modal-header"> 		   	  	  				  
+ 		   	  	  				  
+        <h4 class="modal-title">Supprimer favoris</h4> 		   	  	  				  
+         <button type="button" class="close" data-dismiss="modal">&times;</button> 		   	  	  				  
+      </div> 		   	  	  				  
+      <div class="modal-body"> 		   	  	  				  
+          <h3>Voulez vous supprimer ce média favoris?</h3> 		   	  	  				  
+ 		   	  	  				  
+      </div> 		   	  	  				  
+      <div class="modal-footer"> 		   	  	  				  
+          <button id="valid" type="button" class="btn btn-success" data-dismiss="modal">Oui</button> 		   	  	  				  
+        <button type="button" class="btn btn-default" data-dismiss="modal">Non</button> 		   	  	  				  
+      </div> 		   	  	  				  
+    </div> 		   	  	  				  
+ 		   	  	  				  
+  </div> 		   	  	  				  
+</div> 		   	  	  				  
+ 		   	  	  				  
+ 	<div id="Modal2" class="modal" role="dialog"> 		   	  	  				  
+  <div class="modal-dialog"> 		   	  	  				  
+ 		   	  	  				  
+    <!-- Modal content--> 		   	  	  				  
+    <div class="modal-content"> 		   	  	  				  
+      <div class="modal-header"> 		   	  	  				  
+ 		   	  	  				  
+        <h4 class="modal-title">Choisir une playlist</h4> 		   	  	  				  
+         <button type="button" class="close" data-dismiss="modal">&times;</button> 		   	  	  				  
+      </div> 		   	  	  				  
+      <div class="modal-body"> 		   	  	  				  
+ 		   	  	  				  
+      			<div id="formPlayExist"> 		   	  	  				  
+      				<input type="checkbox" id="cbChoix" name="playlist"checked><label>Choix d'une playlist existante</label> 		   	  	  				  
+      			</div> 		   	  	  				  
+      			<div id="playlistExist"> 		   	  	  				  
+      				<label>Playlist: </label> 		   	  	  				  
+      				<select id="choix"></select> 		   	  	  				  
+      			</div> 		   	  	  				  
+      			<div id="formNewPlay"> 		   	  	  				  
+      					<input type="checkbox" id="cbCreate" name="playlist2"><label>Creation d'une nouvelle playlist</label> 		   	  	  				  
+      				</div> 		   	  	  				  
+      		   <div id="playlistCreate" style="display: none;"> 		   	  	  				  
+      		   			<label>Nom:</label> 		   	  	  				  
+	          			<input id="playlist" type="text" name="playlist"> 		   	  	  				  
+      		   </div> 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+      </div> 		   	  	  				  
+      <div class="modal-footer"> 		   	  	  				  
+          <button id="valider" type="button" class="btn btn-success" data-dismiss="modal">Valider</button> 		   	  	  				  
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button> 		   	  	  				  
+      </div> 		   	  	  				  
+    </div> 		   	  	  				  
+ 		   	  	  				  
+  </div> 		   	  	  				  
+</div> 		   	  	  				  
+ 		   	  	  				  
+</div> 		   	  	  				  
+ 		   	  	  				  
+</div> 		   	  	  				  
+<script> 		   	  	  				  
+ 		   	  	  				  
+	var searchBtn=document.getElementById("btnSearch"); 		   	  	  				  
+ 		   	  	  				  
+	$("#contenu").keydown(function(e){ 		   	  	  				  
+		if(e.which==13){ 		   	  	  				  
+ 		   	  	  				  
+			clickSearch(); 		   	  	  				  
+		} 		   	  	  				  
+	}); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	animeLiked=[]; 		   	  	  				  
+	animeSuggested=[]; 		   	  	  				  
+	youtubeDataLiked=[]; 		   	  	  				  
+ 		   	  	  				  
+	youtubeDataSuggested=[]; 		   	  	  				  
+	playlistsYoutube=[]; 		   	  	  				  
+	playlistsAnime=[]; 		   	  	  				  
+	otherPlaylistYtb=[]; 		   	  	  				  
+	otherPlaylistAnim=[]; 		   	  	  				  
+ 		   	  	  				  
+ 	var type=document.getElementById("typeSearch").value; 		   	  	  				  
+	function refresh(){ 		   	  	  				  
+ 		   	  	  				  
+		$('#anime').empty(); 		   	  	  				  
+ 		$('#youtube').empty(); 		   	  	  				  
+ 		$('.YouTube .contenu').empty(); 		   	  	  				  
+ 		$('.anime .contenu').empty(); 		   	  	  				  
+ 		var cptAnime=0; 		   	  	  				  
+ 		var cptVideos=0; 		   	  	  				  
+ 		getPopulaireYoutube(); 		   	  	  				  
+ 		getPopulaireAnime(); 		   	  	  				  
+		for(let i=0;i<localStorage.length;++i){ 		   	  	  				  
+			var contenu=JSON.parse(localStorage.getItem(localStorage.key(i))); 		   	  	  				  
+			if(contenu.api=="jikan"&&!animeLiked[cptAnime]){ 		   	  	  				  
+				if(!isAnimePlaylists(contenu.type)){ 		   	  	  				  
+					playlistsAnime.push(contenu.type); 		   	  	  				  
+				} 		   	  	  				  
+ 		   	  	  				  
+				if(contenu.type=="favoris"){ 		   	  	  				  
+					animeLiked.push(contenu); 		   	  	  				  
+				} 		   	  	  				  
+				else{ 		   	  	  				  
+					otherPlaylistAnim.push(contenu); 		   	  	  				  
+				} 		   	  	  				  
+				animeSuggested.push(contenu); 		   	  	  				  
+				cptAnime++; 		   	  	  				  
+			} 		   	  	  				  
+			else if(contenu.api=="YouTube"&&!youtubeDataLiked[cptVideos]){ 		   	  	  				  
+					if(!isYoutubePlaylists(contenu.type)){ 		   	  	  				  
+						playlistsYoutube.push(contenu.type); 		   	  	  				  
+					} 		   	  	  				  
+ 		   	  	  				  
+				if(contenu.type=="favoris"){ 		   	  	  				  
+					youtubeDataLiked.push(contenu.data); 		   	  	  				  
+				} 		   	  	  				  
+				else{ 		   	  	  				  
+					otherPlaylistYtb.push(contenu); 		   	  	  				  
+				} 		   	  	  				  
+ 		   	  	  				  
+				youtubeDataSuggested.push(contenu.data); 		   	  	  				  
+				cptVideos++; 		   	  	  				  
+			} 		   	  	  				  
+ 		   	  	  				  
+		} 		   	  	  				  
+ 		   	  	  				  
+		for(let i=0;i<sessionStorage.length;++i){ 		   	  	  				  
+			var contenu=JSON.parse(sessionStorage.getItem(sessionStorage.key(i))); 		   	  	  				  
+			if(contenu.api=="jikan"&&!animeIsSuggested(contenu.data.title)){ 		   	  	  				  
+				animeSuggested.push(contenu); 		   	  	  				  
+			} 		   	  	  				  
+ 		   	  	  				  
+			if(contenu.api=="YouTube"&&!youtubeDataIsSuggested(contenu.data.snippet.title)){ 		   	  	  				  
+				youtubeDataSuggested.push(contenu.data); 		   	  	  				  
+			} 		   	  	  				  
+		} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+		animeLiked.sort(function (a, b) { 		   	  	  				  
+				if (a.score < b.score) { return 1; } 		   	  	  				  
+				if (b.score < a.score) { return -1; } 		   	  	  				  
+				return 0; 		   	  	  				  
+			}); 		   	  	  				  
+		animeSuggested.sort(function(a,b){ 		   	  	  				  
+			if (a.score < b.score) { return 1; } 		   	  	  				  
+			if (b.score < a.score) { return -1; } 		   	  	  				  
+			return 0; 		   	  	  				  
+		}); 		   	  	  				  
+ 		   	  	  				  
+		youtubeDataLiked.sort(function(a,b){ 		   	  	  				  
+			if(a.statistics.viewCount<b.statistics.viewCount){ 		   	  	  				  
+				return 1; 		   	  	  				  
+			} 		   	  	  				  
+			if(b.statistics.viewCount<a.statistics.viewCount){return -1;} 		   	  	  				  
+			return 0; 		   	  	  				  
+		}); 		   	  	  				  
+		youtubeDataSuggested.sort(function(a,b){ 		   	  	  				  
+			if(a.statistics.viewCount<b.statistics.viewCount){ 		   	  	  				  
+				return 1; 		   	  	  				  
+			} 		   	  	  				  
+			if(b.statistics.viewCount<a.statistics.viewCount){return -1;} 		   	  	  				  
+			return 0; 		   	  	  				  
+		}); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		 if(animeSuggested.length==0&&youtubeDataSuggested.length==0){ 		   	  	  				  
+ 		 	$('#suggestion').css("display","none"); 		   	  	  				  
+ 		 } 		   	  	  				  
+		if(animeSuggested.length==0){ 		   	  	  				  
+			$('#suggestion .anime').css("display","none"); 		   	  	  				  
+		} 		   	  	  				  
+		else{ 		   	  	  				  
+			if(animeSuggested.length<=10){ 		   	  	  				  
+				for(var i=0;i<animeSuggested.length;++i){ 		   	  	  				  
+					var suggestion=animeSuggested[i].data; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+					$('#suggestion .anime .contenu').append('<div id="'+suggestion.title+'" class="card cardAnime"><img class="card-img-top" src="'+suggestion.image_url+'"/><div class="card-body"><h5 class="title"><b>Title:</b> '+suggestion.title+'</h5><a class="episodes"><b>Episodes:</b> '+suggestion.episodes+'</a><br><a class="scores"> <b>Score: </b>'+suggestion.score+'</a><br><a class="start_date"><a><b>Start Year:</b> '+new Date(suggestion.start_date).getFullYear()+'</a><br><a><b>End Year: </b> '+new Date(suggestion.end_date).getFullYear()+'</a><br><p id="synopsis"> <b>Synopsis:</b> <br>'+suggestion.synopsis+'</p> <a id="MoreInfos" href="'+suggestion.url+'">EN SAVOIR PLUS</a> </div></div>') 		   	  	  				  
+				} 		   	  	  				  
+			}else{ 		   	  	  				  
+				for(var i=0;i<10;++i){ 		   	  	  				  
+					var suggestion=animeSuggested[i].data; 		   	  	  				  
+					$('#suggestion .anime .contenu').append('<div id="'+suggestion.title+'" class="card cardAnime"><img class="card-img-top" src="'+suggestion.image_url+'"/><div class="card-body"><h5 class="title"><b>Title:</b> '+suggestion.title+'</h5><a class="episodes"><b>Episodes:</b> '+suggestion.episodes+'</a><br><a class="scores"> <b>Score: </b>'+suggestion.score+'</a><br><a class="start_date"><a><b>Start Year:</b> '+new Date(suggestion.start_date).getFullYear()+'</a><br><a><b>End Year: </b> '+new Date(suggestion.end_date).getFullYear()+'</a><br><p id="synopsis"> <b>Synopsis:</b> <br>'+suggestion.synopsis+'</p><a id="MoreInfos" href="'+suggestion.url+'">EN SAVOIR PLUS</a> </div></div>') 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+				} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+			} 		   	  	  				  
+				$('.MoreInfos').click(function(){ 		   	  	  				  
+						var className = $(this).attr("class"); 		   	  	  				  
+						var num=className.replace("MoreInfos infos-",""); 		   	  	  				  
+						var i=parseInt(num); 		   	  	  				  
+						window.open(animeSuggested[i].url , '_blank'); 		   	  	  				  
+				}); 		   	  	  				  
+ 		   	  	  				  
+		} 		   	  	  				  
+ 		   	  	  				  
+		if(youtubeDataSuggested.length==0){ 		   	  	  				  
+				$('#suggestion .YouTube').css("display","none"); 		   	  	  				  
+		} 		   	  	  				  
+		else{ 		   	  	  				  
+			if(youtubeDataSuggested.length<=10){ 		   	  	  				  
+				for(var i=0;i<youtubeDataSuggested.length;++i){ 		   	  	  				  
+				var suggestion=youtubeDataSuggested[i]; 		   	  	  				  
+ 		   	  	if(suggestion.kind=="youtube#video"){ 		   	  	  				  
+ 		   	  		$('#suggestion .youtube .contenu').append('<div class="card cardYoutube"><img class="card-img-top" src="'+suggestion.snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4>'+suggestion.snippet.title+'</h4></div><div id="channel"><a id="chaine" href="https://www.youtube.com/channel/'+suggestion.snippet.channelId+'" style="color:blue">'+suggestion.snippet.channelTitle+'</a></div><div id="descYoutube"><p><b>description vidéos: </b>'+suggestion.snippet.description+'</p></div><a><span class="glyphicon glyphicon-thumbs-up"></span>:'+suggestion.statistics.likeCount+'</a>  <a><span class="glyphicon glyphicon-thumbs-down"></span>:'+suggestion.statistics.dislikeCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+suggestion.statistics.viewCount+'</a><br><a class="SeeVideos videos-'+i+'" href="https://www.youtube.com/watch?v='+suggestion.id+'" style="color:red">VOIR LA VIDEO</a></div>'); 		   	  	  				  
+ 		   	  		}else{ 		   	  	  				  
+ 		   	  			$('#suggestion .youtube .contenu').append('<div class="card cardYoutube"><img class="card-img-top" src="'+suggestion.snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4><a id="chaine" href="https://www.youtube.com/channel/'+suggestion.id+'" style="color:blue">'+suggestion.snippet.title+'</a></h4></div><div id="descYoutube"><p><b>description chaine: </b>'+suggestion.snippet.description+'</p></div><a>Abonnés:'+suggestion.statistics.subscriberCount+'</a>  <a><span class="fa fa-youtube-play"></span>:'+suggestion.statistics.videoCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+suggestion.statistics.viewCount+'</a><br><a class="SeeChannel  channel-'+i+'" href="https://www.youtube.com/channel/'+suggestion.id+'" style="color:red;">VOIR LA CHAINE</button>') 		   	  	  				  
+ 		   	  		} 		   	  	  				  
+ 		   	  	  				  
+				} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+			} 		   	  	  				  
+			else{ 		   	  	  				  
+				for(var i=0;i<10;++i){ 		   	  	  				  
+				var suggestion=youtubeDataSuggested[i]; 		   	  	  				  
+ 		   	  	  				  
+				if(suggestion.kind=="youtube#video"){ 		   	  	  				  
+						$('#suggestion .youtube .contenu').append('<div class="card cardYoutube"><img class="card-img-top" src="'+suggestion.snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4>'+suggestion.snippet.title+'</h4></div><div id="channel"><a id="chaine" href="https://www.youtube.com/channel/'+suggestion.snippet.channelId+'" style="color:blue">'+suggestion.snippet.channelTitle+'</a></div><div id="descYoutube"><p><b>description vidéos: </b>'+suggestion.snippet.description+'</p></div><a><span class="glyphicon glyphicon-thumbs-up"></span>:'+suggestion.statistics.likeCount+'</a>  <a><span class="glyphicon glyphicon-thumbs-down"></span>:'+suggestion.statistics.dislikeCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+suggestion.statistics.viewCount+'</a><br><a class="SeeVideos videos-'+i+'" href="https://www.youtube.com/watch?v='+suggestion.id+'" style="color:red">VOIR LA VIDEO</button></a></div>'); 		   	  	  				  
+					} else{ 		   	  	  				  
+						$('#suggestion .youtube .contenu').append('<div class="card cardYoutube"><img class="card-img-top" src="'+suggestion.snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4><a id="chaine" href="https://www.youtube.com/channel/'+suggestion.id+'" style="color:blue">'+suggestion.snippet.title+'</a></h4></div><div id="descYoutube"><p><b>description chaine: </b>'+suggestion.snippet.description+'</p></div><a>Abonnés:'+suggestion.statistics.subscriberCount+'</a>  <a><span class="fa fa-youtube-play"></span>:'+suggestion.statistics.videoCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+suggestion.statistics.viewCount+'</a><br><a class="SeeChannel  channel-'+i+'" href="https://www.youtube.com/channel/'+suggestion.id+'" style="color:red;">VOIR LA CHAINE</button>') 		   	  	  				  
+					} 		   	  	  				  
+ 		   	  	  				  
+				} 		   	  	  				  
+			} 		   	  	  				  
+		} 		   	  	  				  
+ 		if(animeLiked.length==0&&youtubeDataLiked.length==0){ 		   	  	  				  
+ 			$('#favoris').css("display","none"); 		   	  	  				  
+ 		} 		   	  	  				  
+ 		   	  	  				  
+		if(animeLiked.length==0){ 		   	  	  				  
+			$('#favoris .anime').css("display","none"); 		   	  	  				  
+		} 		   	  	  				  
+		else{ 		   	  	  				  
+			for(var i=0;i<animeLiked.length;++i){ 		   	  	  				  
+				var favoris=animeLiked[i]; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+				$('#favoris .anime .contenu').append('<div id="favorisAnime'+i+'" class="card cardAnime"><img class="card-img-top" src="'+favoris.data.image_url+'"/><div class="card-body"><h5 class="title"><b>Title:</b> '+favoris.data.title+'</h5><a class="episodes"><b>Episodes:</b> '+favoris.data.episodes+'</a><br><a class="scores"> <b>Score: </b>'+favoris.data.score+'</a><br><a class="start_date"><a><b>Start Year:</b> '+new Date(favoris.data.start_date).getFullYear()+'</a><br><a><b>End Year: </b> '+new Date(favoris.data.end_date).getFullYear()+'</a><br><p id="synopsis"> <b>Synopsis:</b> <br>'+favoris.data.synopsis+'</p><a id="MoreInfos" href="'+favoris.data.url+'">EN SAVOIR PLUS</a> <button type="button" class="btn favorisAnimeDelete delete-'+i+'"><span class="glyphicon glyphicon-trash"></span></button></div></div>'); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+					} 		   	  	  				  
+					$('.favorisAnimeDelete').click(function(){ 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+											var num=className.replace("btn favorisAnimeDelete delete-",""); 		   	  	  				  
+											var j=parseInt(num); 		   	  	  				  
+ 		   	  	  				  
+											$('#myModal').modal({ 		   	  	  				  
+												show:true 		   	  	  				  
+											}); 		   	  	  				  
+											$('#valid').click(function(){ 		   	  	  				  
+												   var favorisDeleted=document.getElementById('favoris'+j); 		   	  	  				  
+													$('#favorisAnime'+j).remove(); 		   	  	  				  
+													removeItem(animeLiked[j].data.title); 		   	  	  				  
+											}); 		   	  	  				  
+ 		   	  	  				  
+							}); 		   	  	  				  
+		} 		   	  	  				  
+		if(otherPlaylistAnim.length==0&&otherPlaylistYtb.length==0){ 		   	  	  				  
+			$('#otherPlaylist').css("display","none"); 		   	  	  				  
+		} 		   	  	  				  
+		if(otherPlaylistAnim.length==0){ 		   	  	  				  
+			$('#otherPlaylist .anime').css("display","none"); 		   	  	  				  
+		}else{ 		   	  	  				  
+			for(var i=0;i<playlistsAnime.length;++i){ 		   	  	  				  
+				if(playlistsAnime[i]!="favoris"){ 		   	  	  				  
+					$('#otherPlaylist .anime .contenu').append('<div class="'+playlistsAnime[i]+'"><h4>'+playlistsAnime[i]+'</h4></div>'); 		   	  	  				  
+				} 		   	  	  				  
+			} 		   	  	  				  
+			for(var i=0;i<otherPlaylistAnim.length;++i){ 		   	  	  				  
+				var contains=otherPlaylistAnim[i].data; 		   	  	  				  
+				$('#otherPlaylist .anime .contenu .'+otherPlaylistAnim[i].type).append('<div id="playlistDataAnime'+i+'" class="card cardAnime"><img class="card-img-top" src="'+contains.image_url+'"/><div class="card-body"><h5 class="title"><b>Title:</b> '+contains.title+'</h5><a class="episodes"><b>Episodes:</b> '+contains.episodes+'</a><br><a class="scores"> <b>Score: </b>'+contains.score+'</a><br><a class="start_date"><a><b>Start Year:</b> '+new Date(contains.start_date).getFullYear()+'</a><br><a><b>End Year: </b> '+new Date(contains.end_date).getFullYear()+'</a><br><p id="synopsis"> <b>Synopsis:</b> <br>'+contains.synopsis+'</p><a id="MoreInfos" href="'+contains.url+'">EN SAVOIR PLUS</a> <button type="button" class="btn playlistDataAnimeDelete delete-'+i+'"><span class="glyphicon glyphicon-trash"></span></button></div></div>'); 		   	  	  				  
+ 		   	  	  				  
+			} 		   	  	  				  
+			$('.playlistDataAnimeDelete').click(function(){ 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+											var num=className.replace("btn playlistDataAnimeDelete delete-",""); 		   	  	  				  
+											var j=parseInt(num); 		   	  	  				  
+											$('#myModal').modal({ 		   	  	  				  
+												show:true 		   	  	  				  
+											}); 		   	  	  				  
+											$('#valid').click(function(){ 		   	  	  				  
+												var playlistAnimDeleted=document.getElementById('playlistDataAnime'+j); 		   	  	  				  
+													$('#playlistDataAnime'+j).remove(); 		   	  	  				  
+													removeItem(otherPlaylistAnim[j].data.title); 		   	  	  				  
+											}); 		   	  	  				  
+			}); 		   	  	  				  
+		} 		   	  	  				  
+ 		   	  	  				  
+		if(youtubeDataLiked.length==0){ 		   	  	  				  
+			$('#favoris .youtube').css("display","none"); 		   	  	  				  
+		} 		   	  	  				  
+		else{ 		   	  	  				  
+			for(var i=0;i<youtubeDataLiked.length;++i){ 		   	  	  				  
+				var favoris=youtubeDataLiked[i]; 		   	  	  				  
+					if(favoris.kind=="youtube#video"){ 		   	  	  				  
+						$('#favoris .youtube .contenu').append('<div class="card cardYoutube" id="favoris'+i+'"><img class="card-img-top" src="'+favoris.snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4>'+favoris.snippet.title+'</h4></div><div id="channel"><a id="chaine" href="https://www.youtube.com/channel/'+favoris.snippet.channelId+'" style="color:blue">'+favoris.snippet.channelTitle+'</a></div><div id="descYoutube"><p><b>description vidéos: </b>'+favoris.snippet.description+'</p></div><a><span class="glyphicon glyphicon-thumbs-up"></span>:'+favoris.statistics.likeCount+'</a>  <a><span class="glyphicon glyphicon-thumbs-down"></span>:'+favoris.statistics.dislikeCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+favoris.statistics.viewCount+'</a><br><a class="SeeVideos videos-'+i+'" href="https://www.youtube.com/watch?v='+favoris.id+'" style="color:red">VOIR LA VIDEO</button></a> <button type="button" class="btn favorisYoutubeDelete delete-'+i+'"><span class="glyphicon glyphicon-trash"></span></button></div>'); 		   	  	  				  
+					}else{ 		   	  	  				  
+						$('#favoris .youtube .contenu').append('<div class="card cardYoutube" id="favoris'+i+'"><img class="card-img-top" src="'+favoris.snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4><a id="chaine" href="https://www.youtube.com/channel/'+favoris.id+'" style="color:blue">'+favoris.snippet.title+'</a></h4></div><div id="descYoutube"><p><b>description vidéos: </b>'+favoris.snippet.description+'</p></div><a>Abonnés:'+favoris.statistics.subscriberCount+'</a>  <a><span class="fa fa-youtube-play"></span>:'+favoris.statistics.videoCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+favoris.statistics.viewCount+'</a><br><a class="SeeChannel  channel-'+i+'" href="https://www.youtube.com/channel/'+favoris.id+'" style="color:red;">VOIR LA CHAINE</a>   <button type="button" class="btn favorisYoutubeDelete delete-'+i+'"><span class="glyphicon glyphicon-trash"></span></button></div>') 		   	  	  				  
+					} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+			} 		   	  	  				  
+			$('.favorisYoutubeDelete').click(function(){ 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+											var num=className.replace("btn favorisDelete delete-",""); 		   	  	  				  
+											var j=parseInt(num); 		   	  	  				  
+											$('#myModal').modal({ 		   	  	  				  
+												show:true 		   	  	  				  
+											}); 		   	  	  				  
+											$('#valid').click(function(){ 		   	  	  				  
+												var favorisDeleted=document.getElementById('favoris'+j); 		   	  	  				  
+													$('#favoris'+j).remove(); 		   	  	  				  
+													removeItem(youtubeDataLiked[j].snippet.title); 		   	  	  				  
+											}); 		   	  	  				  
+			}) 		   	  	  				  
+		} 		   	  	  				  
+		if(otherPlaylistYtb.length==0){ 		   	  	  				  
+			$('#otherPlaylist .YouTube').css("display","none"); 		   	  	  				  
+		}else{ 		   	  	  				  
+			for(var i=0;i<playlistsYoutube.length;++i){ 		   	  	  				  
+				if(playlistsYoutube[i]!="favoris"){ 		   	  	  				  
+ 		   	  	  				  
+					$('#otherPlaylist .YouTube .contenu').append('<div class="'+playlistsYoutube[i]+'"><h4>'+playlistsYoutube[i]+'</h4></div>') 		   	  	  				  
+				} 		   	  	  				  
+			} 		   	  	  				  
+ 		   	  	  				  
+			for(var i=0;i<otherPlaylistYtb.length;++i){ 		   	  	  				  
+				var contains=otherPlaylistYtb[i].data; 		   	  	  				  
+				if(contains.kind=="youtube#video"){ 		   	  	  				  
+						$('#otherPlaylist .YouTube .contenu .'+otherPlaylistYtb[i].type).append('<div class="card cardYoutube" id="playlistDataYoutube'+i+'"><img class="card-img-top" src="'+contains.snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4>'+contains.snippet.title+'</h4></div><div id="channel"><a id="chaine" href="https://www.youtube.com/channel/'+contains.snippet.channelId+'" style="color:blue">'+contains.snippet.channelTitle+'</a></div><div id="descYoutube"><p><b>description vidéos: </b>'+contains.snippet.description+'</p></div><a><span class="glyphicon glyphicon-thumbs-up"></span>:'+contains.statistics.likeCount+'</a>  <a><span class="glyphicon glyphicon-thumbs-down"></span>:'+contains.statistics.dislikeCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+contains.statistics.viewCount+'</a><br><a class="SeeVideos videos-'+i+'" href="https://www.youtube.com/watch?v='+contains.id+'" style="color:red">VOIR LA VIDEO</button></a> <button type="button" class="btn playlistDataYoutubeDelete delete-'+i+'"><span class="glyphicon glyphicon-trash"></span></button></div>'); 		   	  	  				  
+				}else{ 		   	  	  				  
+						$('#otherPlaylist .YouTube .contenu .'+otherPlaylistYtb[i].type).append('<div class="card cardYoutube" id="playlistDataYoutube'+i+'"><img class="card-img-top" src="'+contains.snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4><a id="chaine" href="https://www.youtube.com/channel/'+contains.id+'" style="color:blue">'+contains.snippet.title+'</a></h4></div><div id="descYoutube"><p><b>description vidéos: </b>'+contains.snippet.description+'</p></div><a>Abonnés:'+contains.statistics.subscriberCount+'</a>  <a><span class="fa fa-youtube-play"></span>:'+contains.statistics.videoCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+contains.statistics.viewCount+'</a><br><a class="SeeChannel  channel-'+i+'" href="https://www.youtube.com/channel/'+contains.id+'" style="color:red;">VOIR LA CHAINE</a>   <button type="button" class="btn playlistDataYoutubeDelete delete-'+i+'"><span class="glyphicon glyphicon-trash"></span></button></div>'); 		   	  	  				  
+				} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+			} 		   	  	  				  
+			$('.playlistDataYoutubeDelete').click(function(){ 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+											var num=className.replace("btn playlistDataYoutubeDelete delete-",""); 		   	  	  				  
+											var j=parseInt(num); 		   	  	  				  
+											$('#myModal').modal({ 		   	  	  				  
+												show:true 		   	  	  				  
+											}); 		   	  	  				  
+											$('#valid').click(function(){ 		   	  	  				  
+												var playlistYtbDeleted=document.getElementById('playlistDataYoutube'+j); 		   	  	  				  
+													$('#playlistDataYoutube'+j).remove(); 		   	  	  				  
+													removeItem(otherPlaylistYtb[j].data.snippet.title); 		   	  	  				  
+											}); 		   	  	  				  
+			}); 		   	  	  				  
+ 		   	  	  				  
+		} 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+	function getPopulaireYoutube(){ 		   	  	  				  
+		$.get("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics&chart=mostPopular&maxResults=10&regionCode=FR&key=AIzaSyBs_luxs6WTBecj3yCXDe8ECEAiWkvBGIY",function(data, status){ 		   	  	  				  
+				incontournables=data.items; 		   	  	  				  
+ 		   	  	  				  
+				incontournables.sort(function(a,b){ 		   	  	  				  
+						if (parseInt(a.statistics.viewCount) < parseInt(b.statistics.viewCount)) { return 1; } 		   	  	  				  
+						if (parseInt(b.statistics.viewCount) < parseInt(a.statistics.viewCount)) { return -1; } 		   	  	  				  
+								return 0; 		   	  	  				  
+				}); 		   	  	  				  
+ 		   	  	  				  
+				; 		   	  	  				  
+				for(var i=0;i<incontournables.length;++i){ 		   	  	  				  
+					if(incontournables[i].statistics.dislikeCount){ 		   	  	  				  
+						$('#incontournables .youtube #contenu').append('<div class="card cardYoutube"><img class="card-img-top" src="'+incontournables[i].snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4>'+incontournables[i].snippet.title+'</h4></div><div id="channel"><a id="chaine" href="https://www.youtube.com/channel/'+incontournables[i].snippet.channelId+'" style="color:blue">'+incontournables[i].snippet.channelTitle+'</a></div><div id="descYoutube"><p><b>description vidéos: </b>'+incontournables[i].snippet.description+'</p></div><a><span class="glyphicon glyphicon-thumbs-up"></span>:'+incontournables[i].statistics.likeCount+'</a>  <a><span class="glyphicon glyphicon-thumbs-down"></span>:'+incontournables[i].statistics.dislikeCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+incontournables[i].statistics.viewCount+'</a><br><button class="SeeVideos videos-'+i+'">VOIR LA VIDEO</button><button type="button" class="btn favorisYoutube favorisAdd-'+i+'"><span class="glyphicon glyphicon-heart"></span></button><button class="AddPlaylist playlistYoutube playlist-'+i+'">AJOUTER DANS UNE PLAYLIST</button></div></div>'); 		   	  	  				  
+					}else{ 		   	  	  				  
+						$('#incontournables .youtube #contenu').append('<div class="card cardYoutube"><img class="card-img-top" src="'+incontournables[i].snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4>'+incontournables[i].snippet.title+'</h4></div><div id="channel"><a id="chaine" href="https://www.youtube.com/channel/'+incontournables[i].snippet.channelId+'" style="color:blue">'+incontournables[i].snippet.channelTitle+'</a></div><div id="descYoutube"><p><b>description vidéos: </b>'+incontournables[i].snippet.description+'</p></div><a><span class="glyphicon glyphicon-thumbs-up"></span>:  </a>  <a><span class="glyphicon glyphicon-thumbs-down"></span>:  </a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+incontournables[i].statistics.viewCount+'</a><br><button class="SeeVideos videos-'+i+'">VOIR LA VIDEO</button><button type="button" class="btn favorisYoutube favorisAdd-'+i+'"><span class="glyphicon glyphicon-heart"></span></button><button class="AddPlaylist playlistYoutube playlist-'+i+'">AJOUTER DANS UNE PLAYLIST</button></div></div>'); 		   	  	  				  
+					} 		   	  	  				  
+ 		   	  	  				  
+					if(youtubeDataIsLiked(incontournables[i].snippet.title)){ 		   	  	  				  
+									$('.favorisAdd-'+i).css("background-color","red"); 		   	  	  				  
+									$('.favorisAdd-'+i+' .glyphicon-heart').css("color","white"); 		   	  	  				  
+					} 		   	  	  				  
+ 		   	  	  				  
+				} 		   	  	  				  
+				  $('.favorisYoutube').click(function(){ 		   	  	  				  
+ 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+											var num=className.replace("btn favorisYoutube favorisAdd-",""); 		   	  	  				  
+											var j=parseInt(num); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											if(!youtubeDataIsLiked(incontournables[j].snippet.title)){ 		   	  	  				  
+												$(this).css("background-color","red"); 		   	  	  				  
+												$('.favorisAdd-'+j+' .glyphicon-heart').css("color","white"); 		   	  	  				  
+												jsonYoutube={ 		   	  	  				  
+													api:"YouTube", 		   	  	  				  
+													type:"favoris", 		   	  	  				  
+													data:incontournables[j] 		   	  	  				  
+												}; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+												localStorage.setItem(incontournables[j].snippet.title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+											} 		   	  	  				  
+											else{ 		   	  	  				  
+												$(this).css("background-color","white"); 		   	  	  				  
+												$('.favorisAdd-'+i+' .glyphicon-heart').css("color","black"); 		   	  	  				  
+												removeItem(incontournables[j].snippet.title); 		   	  	  				  
+											} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+									}); 		   	  	  				  
+	                        $('.SeeVideos').click(function(){ 		   	  	  				  
+ 		   	  	  				  
+								var className = $(this).attr("class"); 		   	  	  				  
+								var num=className.replace("SeeVideos videos-",""); 		   	  	  				  
+								var j=parseInt(num); 		   	  	  				  
+ 		   	  	  				  
+								var jsonYoutube={ 		   	  	  				  
+									api:"YouTube", 		   	  	  				  
+									data:incontournables[j] 		   	  	  				  
+								} 		   	  	  				  
+ 		   	  	  				  
+								sessionStorage.setItem(incontournables[j].snippet.title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+								window.open("https://www.youtube.com/watch?v="+incontournables[j].id, '_blank'); 		   	  	  				  
+							}); 		   	  	  				  
+ 		   	  	  				  
+							$('.playlistYoutube').click(function(){ 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+											$('#choix').empty(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											for(var i=0;i<playlistsYoutube.length;++i){ 		   	  	  				  
+												$('#choix').append('<option value="'+playlistsYoutube[i]+'">'+playlistsYoutube[i]+'</option>'); 		   	  	  				  
+ 		   	  	  				  
+											} 		   	  	  				  
+ 		   	  	  				  
+											$('#Modal2').modal({ 		   	  	  				  
+												show:true 		   	  	  				  
+											}); 		   	  	  				  
+											var cbChoix=document.getElementById('cbChoix'); 		   	  	  				  
+											var cbCreate=document.getElementById('cbCreate'); 		   	  	  				  
+											cbChoix.onclick=function(){ 		   	  	  				  
+												var checked=document.getElementById('cbChoix').checked; 		   	  	  				  
+												if(checked){ 		   	  	  				  
+													cbCreate.checked=false; 		   	  	  				  
+													$('#playlistCreate').css('display','none'); 		   	  	  				  
+													$('#playlistExist').css('display','block'); 		   	  	  				  
+													$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+													}); 		   	  	  				  
+												} 		   	  	  				  
+												else{ 		   	  	  				  
+															cbCreate.checked=true; 		   	  	  				  
+															$('#playlistCreate').css('display','block'); 		   	  	  				  
+															$('#playlistExist').css('display','none'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+												} 		   	  	  				  
+ 		   	  	  				  
+											}; 		   	  	  				  
+											cbCreate.onclick=function(){ 		   	  	  				  
+													//$('#cbChoix').removeAttr("checked"); 		   	  	  				  
+													var checked=document.getElementById('cbCreate').checked; 		   	  	  				  
+													if(checked){ 		   	  	  				  
+															cbChoix.checked=false; 		   	  	  				  
+															$('#playlistCreate').css('display','block'); 		   	  	  				  
+															$('#playlistExist').css('display','none'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+													} 		   	  	  				  
+													else{ 		   	  	  				  
+															cbChoix.checked=true; 		   	  	  				  
+															$('#playlistCreate').css('display','none'); 		   	  	  				  
+															$('#playlistExist').css('display','block'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+													} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											}; 		   	  	  				  
+											$('#valider').click(function(){ 		   	  	  				  
+												var playlist=document.getElementById("playlist").value; 		   	  	  				  
+													var num=className.replace("AddPlaylist playlistYoutube playlist-",""); 		   	  	  				  
+													var j=parseInt(num); 		   	  	  				  
+													if(cbChoix.checked){ 		   	  	  				  
+ 		   	  	  				  
+															var choix=document.getElementById('choix').value; 		   	  	  				  
+															jsonYoutube={ 		   	  	  				  
+															api:"YouTube", 		   	  	  				  
+															type:choix, 		   	  	  				  
+															data:incontournables[j] 		   	  	  				  
+														}; 		   	  	  				  
+ 		   	  	  				  
+														localStorage.setItem(incontournables[j].snippet.title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+													} 		   	  	  				  
+													else if(cbCreate.checked){ 		   	  	  				  
+ 		   	  	  				  
+															if(playlist!=""&&!isYoutubePlaylists(playlist)){ 		   	  	  				  
+																	jsonYoutube={ 		   	  	  				  
+																		api:"YouTube", 		   	  	  				  
+																		type:playlist, 		   	  	  				  
+																		data:incontournables[j] 		   	  	  				  
+																	}; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+															localStorage.setItem(incontournables[j].snippet.title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+															} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+													} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+										}); 		   	  	  				  
+							}); 		   	  	  				  
+							dataPop=[]; 		   	  	  				  
+ 		   	  	  				  
+							for(var i=0;i<5;++i){ 		   	  	  				  
+								dataPop.push([incontournables[i].snippet.title,incontournables[i].statistics.viewCount]); 		   	  	  				  
+							} 		   	  	  				  
+ 		   	  	  				  
+							drawStatsYoutube("myCanvasYoutube2",dataPop,"view"); 		   	  	  				  
+						}); 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+	function getPopulaireAnime(){ 		   	  	  				  
+ 		   	  	  				  
+			$.get("https://api.jikan.moe/v3/search/anime?q=&order_by=members&sort=desc&page=1",function(data, status){ 		   	  	  				  
+ 		   	  	  				  
+					incontournablesAnim=data.results; 		   	  	  				  
+ 		   	  	  				  
+						incontournablesAnim.sort(function(a,b){ 		   	  	  				  
+								if (a.score < b.score) { return 1; } 		   	  	  				  
+								if (b.score < a.score) { return -1; } 		   	  	  				  
+								return 0; 		   	  	  				  
+							}); 		   	  	  				  
+					for(var i=0;i<incontournablesAnim.length;++i){ 		   	  	  				  
+						var incontournable=incontournablesAnim[i]; 		   	  	  				  
+ 		   	  	  				  
+						$('#incontournables .anime #contenu').append('<div id="'+incontournable.title+'" class="card cardAnime"><img class="card-img-top" src="'+incontournable.image_url+'"/><div class="card-body"><h5 class="title"><b>Title:</b> '+incontournable.title+'</h5><a class="episodes"><b>Episodes:</b> '+incontournable.episodes+'</a><br><a class="scores"> <b>Score: </b>'+incontournable.score+'</a><br><a class="start_date"><a><b>Start Year:</b> '+new Date(incontournable.start_date).getFullYear()+'</a><br><a><b>End Year: </b> '+new Date(incontournable.end_date).getFullYear()+'</a><br><p id="synopsis"> <b>Synopsis:</b> <br>'+incontournable.synopsis+'</p><button class="MoreInfos infos-'+i+'">EN SAVOIR PLUS</button> <button type="button" class="btn favorisAnime favorisAdd-'+i+'"><span class="glyphicon glyphicon-heart"></span></button><button class="AddPlaylist playlistAnime playlist-'+i+'">AJOUTER DANS UNE PLAYLIST</button></div></div>'); 		   	  	  				  
+ 		   	  	  				  
+							if(animeIsLiked(incontournable.title)){ 		   	  	  				  
+ 		   	  	  				  
+									$('.favorisAdd-'+i).css("background-color","red"); 		   	  	  				  
+									$('.favorisAdd-'+i+' .glyphicon-heart').css("color","white"); 		   	  	  				  
+								} 		   	  	  				  
+ 		   	  	  				  
+							} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+							$('.MoreInfos').click(function(){ 		   	  	  				  
+ 		   	  	  				  
+								var className = $(this).attr("class"); 		   	  	  				  
+								var num=className.replace("MoreInfos infos-",""); 		   	  	  				  
+								var i=parseInt(num); 		   	  	  				  
+ 		   	  	  				 var jsonAnime={ 		   	  	  				  
+ 		   	  	  				 	api: "jikan", 		   	  	  				  
+ 		   	  	  				 	data:incontournablesAnim[i] 		   	  	  				  
+ 		   	  	  				 } 		   	  	  				  
+ 		   	  	  				  
+								sessionStorage.setItem(incontournablesAnim[i].title,JSON.stringify(jsonAnime)); 		   	  	  				  
+								window.open(incontournables[i].url , '_blank'); 		   	  	  				  
+							}); 		   	  	  				  
+							$('.favorisAnime').click(function(){ 		   	  	  				  
+ 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											var num=className.replace("btn favorisAnime favorisAdd-",""); 		   	  	  				  
+											var i=parseInt(num); 		   	  	  				  
+ 		   	  	  				  
+											if(!animeIsLiked(incontournablesAnim[i].title)){ 		   	  	  				  
+												$(this).css("background-color","red"); 		   	  	  				  
+												$('.favorisAdd-'+i+' .glyphicon-heart').css("color","white"); 		   	  	  				  
+ 		   	  	  				  
+												var jsonAnime={ 		   	  	  				  
+ 		   	  	  				 					api: "jikan", 		   	  	  				  
+ 		   	  	  				 					type:"favoris", 		   	  	  				  
+ 		   	  	  				 					data:incontournablesAnim[i] 		   	  	  				  
+ 		   	  	  				 				} 		   	  	  				  
+ 		   	  	  				  
+												localStorage.setItem(incontournablesAnim[i].title,JSON.stringify(jsonAnime)); 		   	  	  				  
+ 		   	  	  				  
+											} 		   	  	  				  
+											else{ 		   	  	  				  
+ 		   	  	  				  
+												$(this).css("background-color","white"); 		   	  	  				  
+												$('.favorisAdd-'+i+' .glyphicon-heart').css("color","black"); 		   	  	  				  
+												removeItem(incontournablesAnim[i].title); 		   	  	  				  
+											} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+									}); 		   	  	  				  
+									$('.playlistAnime').click(function(){ 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+											$('#choix').empty(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											for(var i=0;i<playlistsAnime.length;++i){ 		   	  	  				  
+												$('#choix').append('<option value="'+playlistsAnime[i]+'">'+playlistsAnime[i]+'</option>'); 		   	  	  				  
+ 		   	  	  				  
+											} 		   	  	  				  
+ 		   	  	  				  
+											$('#Modal2').modal({ 		   	  	  				  
+												show:true 		   	  	  				  
+											}); 		   	  	  				  
+											var cbChoix=document.getElementById('cbChoix'); 		   	  	  				  
+											var cbCreate=document.getElementById('cbCreate'); 		   	  	  				  
+											cbChoix.onclick=function(){ 		   	  	  				  
+												var checked=document.getElementById('cbChoix').checked; 		   	  	  				  
+												if(checked){ 		   	  	  				  
+													cbCreate.checked=false; 		   	  	  				  
+													$('#playlistCreate').css('display','none'); 		   	  	  				  
+													$('#playlistExist').css('display','block'); 		   	  	  				  
+													$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+													}); 		   	  	  				  
+												} 		   	  	  				  
+												else{ 		   	  	  				  
+															cbCreate.checked=true; 		   	  	  				  
+															$('#playlistCreate').css('display','block'); 		   	  	  				  
+															$('#playlistExist').css('display','none'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+												} 		   	  	  				  
+ 		   	  	  				  
+											}; 		   	  	  				  
+											cbCreate.onclick=function(){ 		   	  	  				  
+ 		   	  	  				  
+													var checked=document.getElementById('cbCreate').checked; 		   	  	  				  
+													if(checked){ 		   	  	  				  
+															cbChoix.checked=false; 		   	  	  				  
+															$('#playlistCreate').css('display','block'); 		   	  	  				  
+															$('#playlistExist').css('display','none'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+													} 		   	  	  				  
+													else{ 		   	  	  				  
+															cbChoix.checked=true; 		   	  	  				  
+															$('#playlistCreate').css('display','none'); 		   	  	  				  
+															$('#playlistExist').css('display','block'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+													} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											}; 		   	  	  				  
+											$('#valider').click(function(){ 		   	  	  				  
+												var playlist=document.getElementById("playlist").value; 		   	  	  				  
+ 		   	  	  				  
+													var num=className.replace("AddPlaylist playlistAnime playlist-",""); 		   	  	  				  
+													var j=parseInt(num); 		   	  	  				  
+													if(cbChoix.checked){ 		   	  	  				  
+ 		   	  	  				  
+														var choix=document.getElementById('choix').value; 		   	  	  				  
+														jsonAnime={ 		   	  	  				  
+															api:"jikan", 		   	  	  				  
+															type:choix, 		   	  	  				  
+															data:incontournablesAnim[j] 		   	  	  				  
+														}; 		   	  	  				  
+														alert("L'anime "+incontournablesAnim[j].title+" a été ajoutée à la playlist "+choix); 		   	  	  				  
+ 		   	  	  				  
+														localStorage.setItem(incontournablesAnim[j].title,JSON.stringify(jsonAnime)); 		   	  	  				  
+														window.location.reload(); 		   	  	  				  
+ 		   	  	  				  
+													} 		   	  	  				  
+													else if(cbCreate.checked){ 		   	  	  				  
+ 		   	  	  				  
+															if(playlist!=""&&!isAnimePlaylists(playlist)){ 		   	  	  				  
+																	jsonAnime={ 		   	  	  				  
+																		api:"jikan", 		   	  	  				  
+																		type:playlist, 		   	  	  				  
+																		data:incontournablesAnim[j] 		   	  	  				  
+																	}; 		   	  	  				  
+ 		   	  	  				  							alert("L'anime "+incontournablesAnim[j].title+" a été ajoutée à la playlist "+playlist); 		   	  	  				  
+ 		   	  	  				  
+															localStorage.setItem(incontournablesAnim[j].title,JSON.stringify(jsonAnime)); 		   	  	  				  
+															window.location.reload(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+															} 		   	  	  				  
+															if(isAnimePlaylists(playlist)){ 		   	  	  				  
+																alert("La playlist "+playlist+" existe déjà"); 		   	  	  				  
+															} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+													} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+										}); 		   	  	  				  
+							}); 		   	  	  				  
+ 		   	  	  				  
+							dataPop=[]; 		   	  	  				  
+ 		   	  	  				  
+							for(var i=0;i<10;++i){ 		   	  	  				  
+								dataPop.push([incontournablesAnim[i].title,incontournablesAnim[i].score]); 		   	  	  				  
+							} 		   	  	  				  
+							drawStatsAnime("myCanvasAnime2",dataPop); 		   	  	  				  
+					}); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+			} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	$(document).ready(function(){ 		   	  	  				  
+		refresh(); 		   	  	  				  
+		dataAnime=[]; 		   	  	  				  
+		dataYoutubeLike=[]; 		   	  	  				  
+		dataYoutubeView=[]; 		   	  	  				  
+		dataYoutubeSucrbers=[]; 		   	  	  				  
+		if(animeLiked.length==0&&youtubeDataLiked.length==0){ 		   	  	  				  
+			$('#stats').css("display","none"); 		   	  	  				  
+		} 		   	  	  				  
+		if(animeLiked.length!=0){ 		   	  	  				  
+			if(animeLiked.length<=10){ 		   	  	  				  
+				for(let i=0;i<animeLiked.length;++i){ 		   	  	  				  
+ 		   	  	  				  
+					dataAnime.push([animeLiked[i].data.title,animeLiked[i].data.score]); 		   	  	  				  
+				} 		   	  	  				  
+			}else{ 		   	  	  				  
+				for(let i=0;i<10;++i){ 		   	  	  				  
+ 		   	  	  				  
+					dataAnime.push([animeLiked[i].data.title,animeLiked[i].data.score]); 		   	  	  				  
+				} 		   	  	  				  
+			} 		   	  	  				  
+ 		   	  	  				  
+			if(dataAnime.length>=4){ 		   	  	  				  
+ 		   	  	  				  
+				$('#myCanvasAnime').css('width','100%'); 		   	  	  				  
+			} 		   	  	  				  
+			drawStatsAnime("myCanvasAnime",dataAnime); 		   	  	  				  
+		} 		   	  	  				  
+		else{ 		   	  	  				  
+			$('#statsAnime #statsFav').css("display","none"); 		   	  	  				  
+		} 		   	  	  				  
+ 		   	  	  				  
+		if(youtubeDataLiked.length!=0) { 		   	  	  				  
+			if(youtubeDataLiked.length<=5){ 		   	  	  				  
+				for(let i=0;i<youtubeDataLiked.length;++i){ 		   	  	  				  
+					if(youtubeDataLiked[i].kind=="youtube#video"){ 		   	  	  				  
+						dataYoutubeLike.push([youtubeDataLiked[i].snippet.title,youtubeDataLiked[i].statistics.likeCount]); 		   	  	  				  
+						dataYoutubeView.push([youtubeDataLiked[i].snippet.title,youtubeDataLiked[i].statistics.viewCount]); 		   	  	  				  
+					} 		   	  	  				  
+					else{ 		   	  	  				  
+						dataYoutubeSucrbers.push([youtubeDataLiked[i].snippet.title,youtubeDataLiked[i].statistics.subscriberCount]); 		   	  	  				  
+					} 		   	  	  				  
+ 		   	  	  				  
+				} 		   	  	  				  
+			} 		   	  	  				  
+			else{ 		   	  	  				  
+				for(let i=0;i<5;++i){ 		   	  	  				  
+					if(youtubeDataLiked[i].kind=="youtube#video"){ 		   	  	  				  
+						dataYoutubeLike.push([youtubeDataLiked[i].snippet.title,youtubeDataLiked[i].statistics.likeCount]); 		   	  	  				  
+						dataYoutubeView.push([youtubeDataLiked[i].snippet.title,youtubeDataLiked[i].statistics.viewCount]); 		   	  	  				  
+					} 		   	  	  				  
+					else{ 		   	  	  				  
+						dataYoutubeSucrbers.push([youtubeDataLiked[i].snippet.title,youtubeDataLiked[i].statistics.subscriberCount]); 		   	  	  				  
+					} 		   	  	  				  
+ 		   	  	  				  
+				} 		   	  	  				  
+			} 		   	  	  				  
+ 		   	  	  				  
+			if(dataYoutubeLike.length>2){ 		   	  	  				  
+ 		   	  	  				  
+				$('#myCanvasYouTube').css('width','100%'); 		   	  	  				  
+				$('#myCanvasYouTubef2').css('width','100%'); 		   	  	  				  
+			} 		   	  	  				  
+			if(dataYoutubeSucrbers.length>2){ 		   	  	  				  
+				$('myCanvasYouTubef3').css('width','100%'); 		   	  	  				  
+			} 		   	  	  				  
+			drawStatsYoutube("myCanvasYouTube",dataYoutubeLike,"like"); 		   	  	  				  
+			 drawStatsYoutube("myCanvasYouTubef2",dataYoutubeView,"view"); 		   	  	  				  
+			 drawStatsYoutube("myCanvasYouTubef3",dataYoutubeSucrbers,"view") 		   	  	  				  
+		} 		   	  	  				  
+		else{ 		   	  	  				  
+			$('#statsYoutube').css("display","none"); 		   	  	  				  
+		} 		   	  	  				  
+ 		   	  	  				  
+	}); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	function drawStatsYoutube(canvasName,data,type){ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+		var canvas=document.getElementById(canvasName); 		   	  	  				  
+		var ctx=canvas.getContext('2d'); 		   	  	  				  
+ 		   	  	  				  
+		var bar_width=50; 		   	  	  				  
+		var y_gap=30;  // Gap below the graph 		   	  	  				  
+		var bar_gap=450; // Gap between Bars including width of the bar 		   	  	  				  
+		var x= 20; // Margin of graph from left 		   	  	  				  
+ 		   	  	  				  
+		y=canvas.height -y_gap ; 		   	  	  				  
+ 		   	  	  				  
+		canvas.width=data.length * (  bar_gap)  + x ; 		   	  	  				  
+		////////////end of settings //// 		   	  	  				  
+ 		   	  	  				  
+		ctx.moveTo(x-5,y); 		   	  	  				  
+		ctx.lineTo(canvas.width,y); // Base line of graph 		   	  	  				  
+		ctx.stroke(); 		   	  	  				  
+		/// add shadow /// 		   	  	  				  
+ 		   	  	  				  
+		ctx.shadowOffsetX=3; 		   	  	  				  
+		ctx.shadowOffsetY=3; 		   	  	  				  
+		ctx.shadowBlur = 3; 		   	  	  				  
+		/////////// Draw the graph //////// 		   	  	  				  
+ 		   	  	  				  
+		for (i=0;i<data.length;i++){ 		   	  	  				  
+ 		   	  	  				  
+			ctx.shadowColor = '#ffffff'; // remove this line if you shadow on text is required 		   	  	  				  
+			ctx.font = '12px serif'; // font for base label showing classes 		   	  	  				  
+			ctx.textAlign='left'; 		   	  	  				  
+			ctx.textBaseline='top'; 		   	  	  				  
+			ctx.fillStyle= '#008cf5'; 		   	  	  				  
+			ctx.fillText(data[i][0], x,y+5); // Write base text for classes 		   	  	  				  
+ 		   	  	  				  
+			ctx.beginPath(); 		   	  	  				  
+			ctx.lineWidth=2; 		   	  	  				  
+			if(type=="like"){ 		   	  	  				  
+				y1=y-data[i][1]/2000; 		   	  	  				  
+ 		   	  	  				  
+			x1 = x; 		   	  	  				  
+			ctx.font = '12px serif'; // font at top of the bar 		   	  	  				  
+			ctx.fillStyle= '#000000'; 		   	  	  				  
+			//ctx.fillText(data[i][1], x1,(data[i][1]/10000)+200); // text at top of the bar 		   	  	  				  
+ 		   	  	  				  
+			ctx.fillStyle= 'red'; // fill Colur of bar 		   	  	  				  
+			ctx.shadowColor = '#000000'; 		   	  	  				  
+ 		   	  	  				  
+			ctx.fillRect(x1,y1,bar_width,(data[i][1]/2000));// Filled bar 		   	  	  				  
+			} 		   	  	  				  
+			else{ 		   	  	  				  
+				y1=y-data[i][1]/10000; 		   	  	  				  
+				x1 = x; 		   	  	  				  
+				ctx.font = '12px serif'; // font at top of the bar 		   	  	  				  
+				ctx.fillStyle= '#000000'; 		   	  	  				  
+				//ctx.fillText(data[i][1], x1,(data[i][1]/20000)+200); // text at top of the bar 		   	  	  				  
+ 		   	  	  				  
+				ctx.fillStyle= 'red'; // fill Colur of bar 		   	  	  				  
+				ctx.shadowColor = '#000000'; 		   	  	  				  
+ 		   	  	  				  
+				ctx.fillRect(x1,y1,bar_width,(data[i][1]/10000));// Filled bar 		   	  	  				  
+			} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+			x=x+data[i][0].length*8; 		   	  	  				  
+ 		   	  	  				  
+		} 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	function drawStatsAnime(canvasName,data){ 		   	  	  				  
+ 		   	  	  				  
+		var canvas=document.getElementById(canvasName); 		   	  	  				  
+		var ctx=canvas.getContext('2d'); 		   	  	  				  
+ 		   	  	  				  
+		var bar_width=50; 		   	  	  				  
+		var y_gap=30;  // Gap below the graph 		   	  	  				  
+		var bar_gap=200; // Gap between Bars including width of the bar 		   	  	  				  
+		var x= 20; // Margin of graph from left 		   	  	  				  
+ 		   	  	  				  
+		y=canvas.height -y_gap ; 		   	  	  				  
+ 		   	  	  				  
+		canvas.width=data.length * (  bar_gap)  + x  ; 		   	  	  				  
+		////////////end of settings //// 		   	  	  				  
+ 		   	  	  				  
+		ctx.moveTo(x-5,y); 		   	  	  				  
+		ctx.lineTo(canvas.width,y); // Base line of graph 		   	  	  				  
+		ctx.stroke(); 		   	  	  				  
+		/// add shadow /// 		   	  	  				  
+ 		   	  	  				  
+		ctx.shadowOffsetX=3; 		   	  	  				  
+		ctx.shadowOffsetY=3; 		   	  	  				  
+		ctx.shadowBlur = 3; 		   	  	  				  
+		/////////// Draw the graph //////// 		   	  	  				  
+ 		   	  	  				  
+		for (i=0;i<data.length;i++){ 		   	  	  				  
+			ctx.shadowColor = '#ffffff'; // remove this line if you shadow on text is required 		   	  	  				  
+			ctx.font = '12px serif'; // font for base label showing classes 		   	  	  				  
+			ctx.textAlign='left'; 		   	  	  				  
+			ctx.textBaseline='top'; 		   	  	  				  
+			ctx.fillStyle= '#008cf5'; 		   	  	  				  
+			ctx.fillText(data[i][0], x,y+5); // Write base text for classes 		   	  	  				  
+ 		   	  	  				  
+			ctx.beginPath(); 		   	  	  				  
+			ctx.lineWidth=2; 		   	  	  				  
+			y1=y-data[i][1]; 		   	  	  				  
+ 		   	  	  				  
+			x1 = x; 		   	  	  				  
+			ctx.font = '12px serif'; // font at top of the bar 		   	  	  				  
+			ctx.fillStyle= '#000000'; 		   	  	  				  
+			ctx.fillText(data[i][1], x1,y1-(data[i][1]*10)-20); // text at top of the bar 		   	  	  				  
+ 		   	  	  				  
+			ctx.fillStyle= 'red'; // fill Colur of bar 		   	  	  				  
+			ctx.shadowColor = '#000000'; 		   	  	  				  
+ 		   	  	  				  
+			ctx.fillRect(x1,y1,bar_width,-(data[i][1]*10));// Filled bar 		   	  	  				  
+ 		   	  	  				  
+			x=x+data[i][0].length*8; 		   	  	  				  
+ 		   	  	  				  
+		} 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+		function clickAddPlaylistAnim(className,data){ 		   	  	  				  
+			$('#choix').empty(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+			for(var i=0;i<playlistsAnime.length;++i){ 		   	  	  				  
+					$('#choix').append('<option value="'+playlistsAnime[i]+'">'+playlistsAnime[i]+'</option>'); 		   	  	  				  
+ 		   	  	  				  
+			} 		   	  	  				  
+ 		   	  	  				  
+			$('#Modal2').modal({ 		   	  	  				  
+				show:true 		   	  	  				  
+			}); 		   	  	  				  
+			var cbChoix=document.getElementById('cbChoix'); 		   	  	  				  
+			var cbCreate=document.getElementById('cbCreate'); 		   	  	  				  
+			cbChoix.onclick=function(){ 		   	  	  				  
+				var checked=document.getElementById('cbChoix').checked; 		   	  	  				  
+				if(checked){ 		   	  	  				  
+					cbCreate.checked=false; 		   	  	  				  
+					$('#playlistCreate').css('display','none'); 		   	  	  				  
+					$('#playlistExist').css('display','block'); 		   	  	  				  
+					$('#Modal2').modal({ 		   	  	  				  
+						show:true 		   	  	  				  
+					}); 		   	  	  				  
+				} 		   	  	  				  
+				else{ 		   	  	  				  
+					cbCreate.checked=true; 		   	  	  				  
+					$('#playlistCreate').css('display','block'); 		   	  	  				  
+					$('#playlistExist').css('display','none'); 		   	  	  				  
+					$('#Modal2').modal({ 		   	  	  				  
+						show:true 		   	  	  				  
+					}); 		   	  	  				  
+				} 		   	  	  				  
+ 		   	  	  				  
+			}; 		   	  	  				  
+			cbCreate.onclick=function(){ 		   	  	  				  
+ 		   	  	  				  
+				var checked=document.getElementById('cbCreate').checked; 		   	  	  				  
+				if(checked){ 		   	  	  				  
+					cbChoix.checked=false; 		   	  	  				  
+					$('#playlistCreate').css('display','block'); 		   	  	  				  
+					$('#playlistExist').css('display','none'); 		   	  	  				  
+					$('#Modal2').modal({ 		   	  	  				  
+						show:true 		   	  	  				  
+					}); 		   	  	  				  
+				} 		   	  	  				  
+				else{ 		   	  	  				  
+					cbChoix.checked=true; 		   	  	  				  
+					$('#playlistCreate').css('display','none'); 		   	  	  				  
+					$('#playlistExist').css('display','block'); 		   	  	  				  
+					$('#Modal2').modal({ 		   	  	  				  
+						show:true 		   	  	  				  
+					}); 		   	  	  				  
+				} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+			}; 		   	  	  				  
+			$('#valider').click(function(){ 		   	  	  				  
+				var playlist=document.getElementById("playlist").value; 		   	  	  				  
+				var num=className.replace("AddPlaylist playlistAnime playlist-",""); 		   	  	  				  
+				var j=parseInt(num); 		   	  	  				  
+ 		   	  	  				  
+				if(cbChoix.checked){ 		   	  	  				  
+ 		   	  	  	var choix=document.getElementById('choix').value; 		   	  	  				  
+					jsonAnime={ 		   	  	  				  
+						api:"jikan", 		   	  	  				  
+						type:choix, 		   	  	  				  
+						data:data[j] 		   	  	  				  
+					}; 		   	  	  				  
+					alert("L'anime "+data[j].title+" a été ajoutée à la playlist "+choix); 		   	  	  				  
+ 		   	  	  	localStorage.setItem(data[j].title,JSON.stringify(jsonAnime)); 		   	  	  				  
+ 		   	  	  	window.location.reload(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+				} 		   	  	  				  
+				else if(cbCreate.checked){ 		   	  	  				  
+					if(playlist!=""&&!isAnimePlaylists(playlist)){ 		   	  	  				  
+						jsonAnime={ 		   	  	  				  
+							api:"jikan", 		   	  	  				  
+							type:playlist, 		   	  	  				  
+							data:data[j] 		   	  	  				  
+						}; 		   	  	  				  
+						alert("L'anime "+data[j].title+" a été ajoutée à la playlist "+playlist); 		   	  	  				  
+ 		   	  	  		localStorage.setItem(data[j].title,JSON.stringify(jsonAnime)); 		   	  	  				  
+ 		   	  	  		window.location.reload(); 		   	  	  				  
+ 		   	  	  				  
+					}else if(isAnimePlaylists(playlist)){ 		   	  	  				  
+						alert("La  playlist "+playlist+" existe déjà"); 		   	  	  				  
+						window.location.reload(); 		   	  	  				  
+					} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+				} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+			}); 		   	  	  				  
+		} 		   	  	  				  
+ 		   	  	  				  
+	function getYoutubeDatas(title){ 		   	  	  				  
+			$.get("https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q="+title+"&key=AIzaSyBs_luxs6WTBecj3yCXDe8ECEAiWkvBGIY",function(data, status){ 		   	  	  				  
+					type=document.getElementById('typeSearch').value; 		   	  	  				  
+			 	  	if(type!="tous les types"){ 		   	  	  				  
+			 	  		$('#anime').empty(); 		   	  	  				  
+			 	  	} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  	$('#youtube').empty(); 		   	  	  				  
+ 		   	  	  				  
+                    var results=data.items; 		   	  	  				  
+                    var dataVideo=[]; 		   	  	  				  
+                    var dataChannel=[]; 		   	  	  				  
+ 		   	  	  				  
+                    for(var i=0;i<results.length;++i){ 		   	  	  				  
+                    	if(results[i].id.videoId){ 		   	  	  				  
+                    		video_id=results[i].id.videoId; 		   	  	  				  
+	                        video_title=results[i].snippet.title; 		   	  	  				  
+ 		   	  	  				  
+	                        $.get("https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics&id="+video_id+"&key=AIzaSyBs_luxs6WTBecj3yCXDe8ECEAiWkvBGIY",function(data2, status){ 		   	  	  				  
+	                        	var results2=data2.items 		   	  	  				  
+	                        	dataVideo.push(results2[0]); 		   	  	  				  
+ 		   	  	  				  
+	                        	n=dataVideo.length+dataChannel.length-1; 		   	  	  				  
+ 		   	  	  				  
+	                        	var final='<div class="card cardYoutube"><img class="card-img-top" src="'+results2[0].snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4>'+results2[0].snippet.title+'</h4></div><div id="channel"><a id="chaine" href="https://www.youtube.com/channel/'+results2[0].snippet.channelId+'" style="color:blue">'+results2[0].snippet.channelTitle+'</a></div><div id="descYoutube"><p><b>description vidéos: </b>'+results2[0].snippet.description+'</p></div><a><span class="glyphicon glyphicon-thumbs-up"></span>:'+results2[0].statistics.likeCount+'</a>  <a><span class="glyphicon glyphicon-thumbs-down"></span>:'+results2[0].statistics.dislikeCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+results2[0].statistics.viewCount+'</a><br><button class="SeeVideos videos-'+n+'">VOIR LA VIDEO</button><button type="button" class="btn favorisYoutube favorisAdd-'+n+'"><span class="glyphicon glyphicon-heart"></span></button> <button class="btn playlistYoutube playlist-'+n+'">AJOUTER DANS UNE PLAYLIST</button></div></div>'; 		   	  	  				  
+ 		   	  	  				  
+	                        $("#youtube").append(final); 		   	  	  				  
+	                        if(youtubeDataIsLiked(results2[0].snippet.title)){ 		   	  	  				  
+	                        	$('.favorisAdd-'+n).css("background-color","red"); 		   	  	  				  
+									$('.favorisAdd-'+n+' .glyphicon-heart').css("color","white"); 		   	  	  				  
+	                        } 		   	  	  				  
+	                        $('.favorisYoutube').click(function(){ 		   	  	  				  
+ 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+											var num=className.replace("btn favorisYoutube favorisAdd-",""); 		   	  	  				  
+											var j=parseInt(num); 		   	  	  				  
+											j=j-dataChannel.length; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											if(!youtubeDataIsLiked(dataVideo[j].snippet.title)){ 		   	  	  				  
+												$(this).css("background-color","red"); 		   	  	  				  
+												$('.favorisAdd-'+num+' .glyphicon-heart').css("color","white"); 		   	  	  				  
+												jsonYoutube={ 		   	  	  				  
+													api:"YouTube", 		   	  	  				  
+													type:"favoris", 		   	  	  				  
+													data:dataVideo[j] 		   	  	  				  
+												}; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+												localStorage.setItem(dataVideo[j].snippet.title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											} 		   	  	  				  
+											else{ 		   	  	  				  
+												$(this).css("background-color","white"); 		   	  	  				  
+												$('.favorisAdd-'+num+' .glyphicon-heart').css("color","black"); 		   	  	  				  
+												removeItem(dataVideo[j].snippet.title); 		   	  	  				  
+ 		   	  	  				  
+											} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+									}); 		   	  	  				  
+	                        $('.SeeVideos').click(function(){ 		   	  	  				  
+								var className = $(this).attr("class"); 		   	  	  				  
+								var num=className.replace("SeeVideos videos-",""); 		   	  	  				  
+								var j=parseInt(num); 		   	  	  				  
+								j=j-dataChannel.length; 		   	  	  				  
+								var jsonYoutube={ 		   	  	  				  
+									api:"YouTube", 		   	  	  				  
+									data:dataVideo[j] 		   	  	  				  
+								} 		   	  	  				  
+ 		   	  	  				  
+								sessionStorage.setItem(video_title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+								window.open("https://www.youtube.com/watch?v="+dataVideo[j].id, '_blank'); 		   	  	  				  
+							}); 		   	  	  				  
+ 		   	  	  				  
+							$('.playlistYoutube').click(function(){ 		   	  	  				  
+								var className=$(this).attr("class"); 		   	  	  				  
+ 		   	  	  				  
+								$('#choix').empty(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											for(var i=0;i<playlistsYoutube.length;++i){ 		   	  	  				  
+												$('#choix').append('<option value="'+playlistsYoutube[i]+'">'+playlistsYoutube[i]+'</option>'); 		   	  	  				  
+ 		   	  	  				  
+											} 		   	  	  				  
+ 		   	  	  				  
+											$('#Modal2').modal({ 		   	  	  				  
+												show:true 		   	  	  				  
+											}); 		   	  	  				  
+											var cbChoix=document.getElementById('cbChoix'); 		   	  	  				  
+											var cbCreate=document.getElementById('cbCreate'); 		   	  	  				  
+											cbChoix.onclick=function(){ 		   	  	  				  
+												var checked=document.getElementById('cbChoix').checked; 		   	  	  				  
+												if(checked){ 		   	  	  				  
+													cbCreate.checked=false; 		   	  	  				  
+													$('#playlistCreate').css('display','none'); 		   	  	  				  
+													$('#playlistExist').css('display','block'); 		   	  	  				  
+													$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+													}); 		   	  	  				  
+												} 		   	  	  				  
+												else{ 		   	  	  				  
+															cbCreate.checked=true; 		   	  	  				  
+															$('#playlistCreate').css('display','block'); 		   	  	  				  
+															$('#playlistExist').css('display','none'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+												} 		   	  	  				  
+ 		   	  	  				  
+											}; 		   	  	  				  
+											cbCreate.onclick=function(){ 		   	  	  				  
+ 		   	  	  				  
+													var checked=document.getElementById('cbCreate').checked; 		   	  	  				  
+													if(checked){ 		   	  	  				  
+															cbChoix.checked=false; 		   	  	  				  
+															$('#playlistCreate').css('display','block'); 		   	  	  				  
+															$('#playlistExist').css('display','none'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+													} 		   	  	  				  
+													else{ 		   	  	  				  
+															cbChoix.checked=true; 		   	  	  				  
+															$('#playlistCreate').css('display','none'); 		   	  	  				  
+															$('#playlistExist').css('display','block'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+													} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											}; 		   	  	  				  
+											$('#valider').click(function(){ 		   	  	  				  
+												var playlist=document.getElementById("playlist").value; 		   	  	  				  
+ 		   	  	  				  
+													var num=className.replace("btn playlistYoutube playlist-",""); 		   	  	  				  
+													var j=parseInt(num); 		   	  	  				  
+													j=j-dataChannel.length; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+													if(cbChoix.checked){ 		   	  	  				  
+ 		   	  	  				  
+														var choix=document.getElementById('choix').value; 		   	  	  				  
+														jsonYoutube={ 		   	  	  				  
+															api:"YouTube", 		   	  	  				  
+															type:choix, 		   	  	  				  
+															data:dataVideo[j] 		   	  	  				  
+														}; 		   	  	  				  
+ 		   	  	  				  
+														localStorage.setItem(dataVideo[j].snippet.title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+ 		   	  	  				  
+														window.location.reload(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+													} 		   	  	  				  
+													else if(cbCreate.checked){ 		   	  	  				  
+ 		   	  	  				  
+															if(playlist!=""&&!isYoutubePlaylists(playlist)){ 		   	  	  				  
+																	jsonYoutube={ 		   	  	  				  
+																		api:"YouTube", 		   	  	  				  
+																		type:playlist, 		   	  	  				  
+																		data:dataVideo[j] 		   	  	  				  
+																	}; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+															localStorage.setItem(dataVideo[j].snippet.title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+ 		   	  	  				  
+															window.location.reload(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+															}else if(isYoutubePlaylists(playlist)){ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+																window.location.reload(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+															} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+													} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+										}); 		   	  	  				  
+							}); 		   	  	  				  
+	                     }); 		   	  	  				  
+                    	}else{ 		   	  	  				  
+ 		   	  	  				  
+                    		channel_id=results[i].id.channelId; 		   	  	  				  
+                    		channel_title=results[i].id.channelTitle; 		   	  	  				  
+                    		$.get("https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics&id="+channel_id+"&maxResults=10&key=AIzaSyBs_luxs6WTBecj3yCXDe8ECEAiWkvBGIY",function(data2, status){ 		   	  	  				  
+ 		   	  	  				  
+                    			var results2=data2.items[0]; 		   	  	  				  
+                    			dataChannel.push(results2); 		   	  	  				  
+                    			n=dataChannel.length-1; 		   	  	  				  
+                    			var final='<div class="card cardYoutube"><img class="card-img-top" src="'+results2.snippet.thumbnails.high.url+'"/><div class="card-body"> <div id="titleYoutube"><h4><a id="chaine" href="https://www.youtube.com/channel/'+results2.id+'" style="color:blue">'+results2.snippet.title+'</a></h4></div><div id="descYoutube"><p><b>description chaine: </b>'+results2.snippet.description+'</p></div><a>Abonnés:'+results2.statistics.subscriberCount+'</a>  <a><span class="fa fa-youtube-play"></span>:'+results2.statistics.videoCount+'</a>  <a><span class="glyphicon glyphicon-eye-open"></span>:'+results2.statistics.viewCount+'</a><br><button class="SeeChannel channel-'+n+'">VOIR LA CHAINE</button>  <button type="button" class="btn favorisYoutube favorisAdd-'+n+'"><span class="glyphicon glyphicon-heart"></span></button><button class="btn playlistChannelYoutube playlist-'+n+'">AJOUTER DANS UNE PLAYLIST</button></div></div>'; 		   	  	  				  
+                    			$("#youtube").append(final); 		   	  	  				  
+                    			if(youtubeDataIsLiked(results2.snippet.title)){ 		   	  	  				  
+	                        		$('.favorisAdd-'+n).css("background-color","red"); 		   	  	  				  
+									$('.favorisAdd-'+n+' .glyphicon-heart').css("color","white"); 		   	  	  				  
+	                        	} $('.favorisYoutube').click(function(){ 		   	  	  				  
+ 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+											var num=className.replace("btn favorisYoutube favorisAdd-",""); 		   	  	  				  
+											var j=parseInt(num); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											if(!youtubeDataIsLiked(dataChannel[j].snippet.title)){ 		   	  	  				  
+												$(this).css("background-color","red"); 		   	  	  				  
+												$('.favorisAdd-'+j+' .glyphicon-heart').css("color","white"); 		   	  	  				  
+												jsonYoutube={ 		   	  	  				  
+													api:"YouTube", 		   	  	  				  
+													type:"favoris", 		   	  	  				  
+													data:dataChannel[j] 		   	  	  				  
+												}; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+												localStorage.setItem(dataChannel[j].snippet.title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											} 		   	  	  				  
+											else{ 		   	  	  				  
+												$(this).css("background-color","white"); 		   	  	  				  
+												$('.favorisAdd-'+j+' .glyphicon-heart').css("color","black"); 		   	  	  				  
+												removeItem(dataChannel[j].snippet.title); 		   	  	  				  
+ 		   	  	  				  
+											} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+									}); 		   	  	  				  
+	                        $('.SeeChannel').click(function(){ 		   	  	  				  
+ 		   	  	  				  
+								var className = $(this).attr("class"); 		   	  	  				  
+								var num=className.replace("SeeChannel channel-",""); 		   	  	  				  
+								var j=parseInt(num); 		   	  	  				  
+								var jsonYoutube={ 		   	  	  				  
+									api:"YouTube", 		   	  	  				  
+									data:dataChannel[j] 		   	  	  				  
+								} 		   	  	  				  
+ 		   	  	  				  
+								sessionStorage.setItem(video_title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+								window.open("https://www.youtube.com/channel/"+dataChannel[j].id, '_blank'); 		   	  	  				  
+							}); 		   	  	  				  
+							$('.playlistChannelYoutube').click(function(){ 		   	  	  				  
+ 		   	  	  				  
+												$('#choix').empty(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											for(var i=0;i<playlistsYoutube.length;++i){ 		   	  	  				  
+												$('#choix').append('<option value="'+playlistsYoutube[i]+'">'+playlistsYoutube[i]+'</option>'); 		   	  	  				  
+ 		   	  	  				  
+											} 		   	  	  				  
+ 		   	  	  				  
+											$('#Modal2').modal({ 		   	  	  				  
+												show:true 		   	  	  				  
+											}); 		   	  	  				  
+											var cbChoix=document.getElementById('cbChoix'); 		   	  	  				  
+											var cbCreate=document.getElementById('cbCreate'); 		   	  	  				  
+											cbChoix.onclick=function(){ 		   	  	  				  
+												var checked=document.getElementById('cbChoix').checked; 		   	  	  				  
+												if(checked){ 		   	  	  				  
+													cbCreate.checked=false; 		   	  	  				  
+													$('#playlistCreate').css('display','none'); 		   	  	  				  
+													$('#playlistExist').css('display','block'); 		   	  	  				  
+													$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+													}); 		   	  	  				  
+												} 		   	  	  				  
+												else{ 		   	  	  				  
+															cbCreate.checked=true; 		   	  	  				  
+															$('#playlistCreate').css('display','block'); 		   	  	  				  
+															$('#playlistExist').css('display','none'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+												} 		   	  	  				  
+ 		   	  	  				  
+											}; 		   	  	  				  
+											cbCreate.onclick=function(){ 		   	  	  				  
+ 		   	  	  				  
+													var checked=document.getElementById('cbCreate').checked; 		   	  	  				  
+													if(checked){ 		   	  	  				  
+															cbChoix.checked=false; 		   	  	  				  
+															$('#playlistCreate').css('display','block'); 		   	  	  				  
+															$('#playlistExist').css('display','none'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+													} 		   	  	  				  
+													else{ 		   	  	  				  
+															cbChoix.checked=true; 		   	  	  				  
+															$('#playlistCreate').css('display','none'); 		   	  	  				  
+															$('#playlistExist').css('display','block'); 		   	  	  				  
+															$('#Modal2').modal({ 		   	  	  				  
+																show:true 		   	  	  				  
+															}); 		   	  	  				  
+													} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+											}; 		   	  	  				  
+											var className = $(this).attr("class"); 		   	  	  				  
+											$('#valider').click(function(){ 		   	  	  				  
+													var playlist=document.getElementById("playlist").value; 		   	  	  				  
+ 		   	  	  				  
+													var num=className.replace("btn playlistChannelYoutube playlist-",""); 		   	  	  				  
+													var j=parseInt(num); 		   	  	  				  
+												if(cbChoix.checked){ 		   	  	  				  
+ 		   	  	  				  
+															var choix=document.getElementById('choix').value; 		   	  	  				  
+															jsonYoutube={ 		   	  	  				  
+															api:"YouTube", 		   	  	  				  
+															type:choix, 		   	  	  				  
+															data:dataChannel[j] 		   	  	  				  
+														}; 		   	  	  				  
+ 		   	  	  				  						alert("La chaine "+dataChannel[j].snippet.title+" a été ajoutée à la playlist "+choix); 		   	  	  				  
+														localStorage.setItem(dataChannel[j].snippet.title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+														window.location.reload(); 		   	  	  				  
+													} 		   	  	  				  
+													else if(cbCreate.checked){ 		   	  	  				  
+ 		   	  	  				  
+															if(playlist!=""&&!isYoutubePlaylists(playlist)){ 		   	  	  				  
+																	jsonYoutube={ 		   	  	  				  
+																		api:"YouTube", 		   	  	  				  
+																		type:playlist, 		   	  	  				  
+																		data:dataChannel[j] 		   	  	  				  
+																	}; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  							alert("La chaine "+dataChannel[j].snippet.title+" a été ajoutée à la playlist "+playlist); 		   	  	  				  
+															localStorage.setItem(dataChannel[j].snippet.title,JSON.stringify(jsonYoutube)); 		   	  	  				  
+															window.location.reload(); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+															}else if(isYoutubePlaylists(playlist)){ 		   	  	  				  
+																alert("La playlist "+playlist+" existe déjà."); 		   	  	  				  
+																window.location.reload(); 		   	  	  				  
+															} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+													} 		   	  	  				  
+											}); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+							}); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+                    		}); 		   	  	  				  
+ 		   	  	  				  
+                    	} 		   	  	  				  
+ 		   	  	  				  
+                    } 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+            		}); 		   	  	  				  
+ 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+	function getAnimeDatas(title){ 		   	  	  				  
+		$.get("https://api.jikan.moe/v3/search/anime?q="+title,function(data, status){ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  			$('#anime').empty(); 		   	  	  				  
+ 		   	  	  		    if(type!="tous les types"){ 		   	  	  				  
+ 		   	  	  			  	$('#youtube').empty(); 		   	  	  				  
+ 		   	  	    		} 		   	  	  				  
+							var results=data.results; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+							var resultat=document.getElementById("result"); 		   	  	  				  
+ 		   	  	  				  
+							for(var i=0;i<results.length;++i){ 		   	  	  				  
+ 		   	  	  				  
+								$('#result #anime').append(' <div id="'+results[i].title+'" class="card cardAnime"><img class="card-img-top" src="'+results[i].image_url+'"/><div class="card-body"><h5 class="title"><b>Title:</b> '+results[i].title+'</h5><a class="episodes"><b>Episodes:</b> '+results[i].episodes+'</a><br><a class="scores"> <b>Score: </b>'+results[i].score+'</a><br><a class="start_date"><a><b>Start Year:</b> '+new Date(results[i].start_date).getFullYear()+'</a><br><a><b>End Year: </b> '+new Date(results[i].end_date).getFullYear()+'</a><br><p id="synopsis"> <b>Synopsis:</b> <br>'+results[i].synopsis+'</p><button class="MoreInfos infos-'+i+'">EN SAVOIR PLUS</button> <button type="button" class="btn favorisAnime favorisAdd-'+i+'"><span class="glyphicon glyphicon-heart"></span></button><button class="AddPlaylist playlistAnime playlist-'+i+'">AJOUTER DANS UNE PLAYLIST</button></div></div>'); 		   	  	  				  
+								if(animeIsLiked(results[i].title)){ 		   	  	  				  
+ 		   	  	  				  
+									$('.favorisAdd-'+i).css("background-color","red"); 		   	  	  				  
+									$('.favorisAdd-'+i+' .glyphicon-heart').css("color","white"); 		   	  	  				  
+								} 		   	  	  				  
+ 		   	  	  				  
+							} 		   	  	  				  
+							$('.MoreInfos').click(function(){ 		   	  	  				  
+ 		   	  	  				  
+								var className = $(this).attr("class"); 		   	  	  				  
+								var num=className.replace("MoreInfos infos-",""); 		   	  	  				  
+								var j=parseInt(num); 		   	  	  				  
+								var jsonAnime={ 		   	  	  				  
+									api:"jikan", 		   	  	  				  
+									data:results[j] 		   	  	  				  
+								} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+								sessionStorage.setItem(results[j].title,JSON.stringify(jsonAnime)); 		   	  	  				  
+								window.open(results[j].url , '_blank'); 		   	  	  				  
+							}); 		   	  	  				  
+							$('.favorisAnime').click(function(){ 		   	  	  				  
+ 		   	  	  				  
+									var className = $(this).attr("class"); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+									var num=className.replace("btn favorisAnime favorisAdd-",""); 		   	  	  				  
+									var i=parseInt(num); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+									if(!animeIsLiked(results[i].title)){ 		   	  	  				  
+										$(this).css("background-color","red"); 		   	  	  				  
+										$('.favorisAdd-'+i+' .glyphicon-heart').css("color","white"); 		   	  	  				  
+										var jsonAnime={ 		   	  	  				  
+											api:"jikan", 		   	  	  				  
+											type:"favoris", 		   	  	  				  
+											data:results[i] 		   	  	  				  
+										} 		   	  	  				  
+										localStorage.setItem(results[i].title,JSON.stringify(jsonAnime)); 		   	  	  				  
+ 		   	  	  				  
+									} 		   	  	  				  
+									else{ 		   	  	  				  
+ 		   	  	  				  
+										$(this).css("background-color","white"); 		   	  	  				  
+										$('.favorisAdd-'+i+' .glyphicon-heart').css("color","black"); 		   	  	  				  
+										removeItem(results[i].title); 		   	  	  				  
+ 		   	  	  				  
+									} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+							}); 		   	  	  				  
+							$('.playlistAnime').click(function(){ 		   	  	  				  
+								var className = $(this).attr("class"); 		   	  	  				  
+								clickAddPlaylistAnim(className,results); 		   	  	  				  
+							}); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+        		}); 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	function clickSearch(){ 		   	  	  				  
+ 		type=document.getElementById("typeSearch").value; 		   	  	  				  
+		var contenu=document.getElementById("contenu").value; 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+		if(contenu!=""){ 		   	  	  				  
+ 		   	  	  				  
+				if(type=="youtube"){ 		   	  	  				  
+						getYoutubeDatas(contenu); 		   	  	  				  
+				} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  else if(type=="japanimation"){ 		   	  	  				  
+ 		   	  	  		getAnimeDatas(contenu); 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  } 		   	  	  				  
+ 		   	  	  else{ 		   	  	  				  
+ 		   	  	  		getYoutubeDatas(contenu); 		   	  	  				  
+ 		   	  	  		getAnimeDatas(contenu); 		   	  	  				  
+ 		   	  	  } 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+		} 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 	function isYoutubePlaylists(playlist){ 		   	  	  				  
+ 			for(var i=0;i<playlistsYoutube.length;++i){ 		   	  	  				  
+ 				if(playlistsYoutube[i]==playlist){ 		   	  	  				  
+ 					return true; 		   	  	  				  
+ 				} 		   	  	  				  
+ 			} 		   	  	  				  
+ 			return false; 		   	  	  				  
+ 	} 		   	  	  				  
+ 		   	  	  				  
+ 	function isAnimePlaylists(playlist){ 		   	  	  				  
+ 		for(var i=0;i<playlistsAnime.length;++i){ 		   	  	  				  
+ 			if(playlistsAnime[i]==playlist){ 		   	  	  				  
+ 				return true; 		   	  	  				  
+ 			} 		   	  	  				  
+ 		} 		   	  	  				  
+ 		return false; 		   	  	  				  
+ 	} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 	function isYoutubePlaylistsData(title){ 		   	  	  				  
+ 		for(var i=0;i<otherPlaylistYtb.length;++i){ 		   	  	  				  
+ 			if(otherPlaylistYtb.data.snippet.title==title){ 		   	  	  				  
+ 				return true; 		   	  	  				  
+ 			} 		   	  	  				  
+ 		} 		   	  	  				  
+ 		return false; 		   	  	  				  
+ 	} 		   	  	  				  
+ 		   	  	  				  
+	function removeItem(title){ 		   	  	  				  
+			localStorage.removeItem(title); 		   	  	  				  
+			var indexdel=-1; 		   	  	  				  
+			for(let i=0;i<animeLiked.length;++i){ 		   	  	  				  
+				if(animeLiked[i].title==title){ 		   	  	  				  
+					indexdel=i; 		   	  	  				  
+				} 		   	  	  				  
+			} 		   	  	  				  
+			animeLiked.splice(indexdel,1); 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+	function animeIsSuggested(title){ 		   	  	  				  
+		for(var i=0;i<animeSuggested.length;++i){ 		   	  	  				  
+			if(animeSuggested[i].data.title==title){ 		   	  	  				  
+				return true; 		   	  	  				  
+			} 		   	  	  				  
+		} 		   	  	  				  
+		return false; 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+	function animeIsLiked(title){ 		   	  	  				  
+ 		   	  	  				  
+		for(var i=0;i<animeLiked.length;++i){ 		   	  	  				  
+ 		   	  	  				  
+			if(animeLiked[i].data.title==title){ 		   	  	  				  
+				return true; 		   	  	  				  
+			} 		   	  	  				  
+		} 		   	  	  				  
+		return false; 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+	function youtubeDataIsLiked(title){ 		   	  	  				  
+		for(var i=0;i<youtubeDataLiked.length;++i){ 		   	  	  				  
+ 		   	  	  				  
+			if(youtubeDataLiked[i].snippet.title==title){ 		   	  	  				  
+				return true; 		   	  	  				  
+			} 		   	  	  				  
+		} 		   	  	  				  
+		return false; 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+	function youtubeDataIsSuggested(title){ 		   	  	  				  
+ 		   	  	  				  
+		for(var i=0;i<youtubeDataSuggested.length;++i){ 		   	  	  				  
+			if(youtubeDataSuggested[i].snippet.title==title){ 		   	  	  				  
+				return true; 		   	  	  				  
+			} 		   	  	  				  
+		} 		   	  	  				  
+		return false; 		   	  	  				  
+	} 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+ 		   	  	  				  
+</script> 		   	  	  				  
+ 		   	  	  				  
+</body> 		   	  	  				  
+</html> 		   	  	  				  
