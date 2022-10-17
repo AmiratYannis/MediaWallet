@@ -1,0 +1,8 @@
+.card .cardYoutube{
+    display: inline-block; 		   	  	  				  
+    width: 25rem; 		   	  	  				  
+    height: 700px; 		   	  	  				  
+    overflow: hidden; 		   	  	  				  
+    margin-right:5px; 		   	  	  				  
+    margin-bottom: 5px; 
+}
