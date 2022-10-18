@@ -1,8 +1,35 @@
-.card .cardYoutube{
+
+
+.cardYoutube{ 		   	  	  				  
+    width:35rem; 		   	  	  				  
+    height: 700px; 	
+    margin-top: 10px;	   	  	  				  
+    margin-left:10px
+} 		   	  	  				  
+.cardYoutube #descYoutube{ 		   	  	  				  
+        height: 29%; 		   	  	  				  
+margin: 1%; 		   	  	  				  
+overflow: hidden; 		   	  	  				  
+} 		   	  	  				  
+                                      
+                                      
+                                      
+.card-img-top{ 		   	  	  				  
+    height:30%; 		   	  	  				  
+    height:250px; 		   	  	  				  
+} 		   	  	  				  
+                                      
+                                      
+                                      
+#MoreInfos{ 		   	  	  				  
+    color:orange; 		   	  	  				  
+} 	
+
+.card{ 		   	  	  				  
     display: inline-block; 		   	  	  				  
     width: 25rem; 		   	  	  				  
     height: 700px; 		   	  	  				  
     overflow: hidden; 		   	  	  				  
     margin-right:5px; 		   	  	  				  
-    margin-bottom: 5px; 
-}
+    margin-bottom: 5px; 		   	  	  				  
+} 		   	  

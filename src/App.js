@@ -46,7 +46,7 @@ function App() {
     <div className="mediaWallet">
       <div id="head"> 		   	  	  				  
  		   	  	  				  
-        <h1 id="title" onclick="window.location.reload();">MEDIA WALLET</h1> 
+        <h1 id="title" onClick={(e)=>window.location.reload()} >MEDIA WALLET</h1> 
         <div className="search"> 		   	  	  				  		   	  	  				  
           <label> Rechercher un contenu </label> 		   	  	  			
           <input  id="contenu" 
